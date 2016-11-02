@@ -8,6 +8,10 @@ export default Ember.Component.extend({
       this.set('addNewProduct', true);
     },
 
+    cancel() {
+      this.set('addNewProduct', false);
+    },
+
     saveProduct() {
       var params = {
         name: this.get('name'),

@@ -3,6 +3,6 @@
 <h3>Products</h3>
 <ul>
 {{#each model as |product|}}
-  <li>{{product.name}}</li>
+  <li>{{product.name}}</li>{{edit-product product=product}}
 {{/each}}
 </ul>

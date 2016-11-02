@@ -1,13 +1,62 @@
 .jumbotron {
-  margin-bottom: 0px;
-}
-
-.product-image {
-  height: auto;
-  width: 40%;
+  margin-bottom: 30px;
+  padding: 60px;
+  background-color: black;
+  background-blend-mode: difference;
+  background-image: url(https://wallpaperscraft.com/image/pattern_patterns_texture_blue_pink_103824_3840x2400.jpg);
+  background-size: cover;
+  border: 4px solid navy;
+  h1{
+    text-align: center;
+    margin-bottom: 0 auto;
+    color: #ffe2e2;
+    font-size: 92px;
+    text-shadow: 5px 5px 20px darkblue;
+  }
+  img {
+    width: 50px;
+    float: right;
+  }
 }
 
 #productWell {
-  height: 40%;
+  height: 500px;
   padding: 10px;
+  img {
+    height: auto;
+    width: 40%;
+  }
+}
+
+nav {
+  width: 70%;
+  margin: 0 auto;
+}
+.navbar-nav {
+  width: 100%;
+  text-align: center;
+  li {
+    float: none;
+    display: inline-block;
+    font-size: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  img {
+    width: 70px;
+  }
+}
+
+#mainDisplay {
+  h1{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 50px;
+  }
+  img {
+    display: block;
+    margin: auto;
+    width: 50%;
+  }
 }
