@@ -1,0 +1,8 @@
+<h2>Administrator</h2>
+{{new-product saveProduct="saveProduct"}}
+<h3>Products</h3>
+<ul>
+{{#each model as |product|}}
+  <li>{{product.name}}</li>
+{{/each}}
+</ul>

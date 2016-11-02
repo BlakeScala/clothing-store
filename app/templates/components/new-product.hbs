@@ -1,0 +1,28 @@
+{{#if addNewProduct}}
+  <form class="well">
+    <h1>New Product</h1>
+    <div class="form-group">
+      <label for="name">Name</label>
+      {{input value=name id="name" class="form-control"}}
+    </div>
+    <div class="form-group">
+      <label for="cost">Cost</label>
+      {{input value=cost id="cost" class="form-control"}}
+    </div>
+    <div class="form-group">
+      <label for="image">Image URL</label>
+      {{input value=image id="image" class="form-control"}}
+    </div>
+    <div class="form-group">
+      <label for="category">Category</label>
+      {{input value=category id="category" class="form-control"}}
+    </div>
+    <div class="form-group">
+      <label for="clearance">Clearance(Yes/No)</label>
+      {{input value=clearance id="clearance" class="form-control"}}
+    </div>
+    <button class="btn btn-default" {{action 'saveProduct'}}>Save Question</button>
+  </form>
+{{else}}
+  <button class="btn btn-default" {{action 'showProductForm'}}>Add New Product</button>
+{{/if}}
