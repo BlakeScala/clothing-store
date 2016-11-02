@@ -13,6 +13,13 @@ module.exports = function(environment) {
       }
     },
 
+    firebase: {
+      apiKey: "AIzaSyDZSHADbTLTpufXH0Y1SKQf0yeHAML7OEY",
+      authDomain: "clothing-store-956b9.firebaseapp.com",
+      databaseURL: "https://clothing-store-956b9.firebaseio.com",
+      storageBucket: "",
+    },
+
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
