@@ -35,6 +35,11 @@ nav {
 .navbar-nav {
   width: 100%;
   text-align: center;
+  background-image: url(https://wallpaperscraft.com/image/pattern_patterns_texture_blue_pink_103824_3840x2400.jpg);
+  background-color: #ffe2e2;
+  background-blend-mode: soft-light;
+  background-size: 200%;
+  border: 3px solid navy;
   li {
     float: none;
     display: inline-block;
@@ -59,4 +64,8 @@ nav {
     margin: auto;
     width: 50%;
   }
+}
+
+.container-fluid {
+  padding: 0px;
 }
