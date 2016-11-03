@@ -18,7 +18,6 @@ export default Ember.Route.extend({
       newReview.save().then(function() {
         return product.save();
       });
-      this.transitionTo('product', product);
     }
   }
 });

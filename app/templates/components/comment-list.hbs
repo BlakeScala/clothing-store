@@ -1,1 +1,9 @@
-{{yield}}
+{{#each sortedReviews as |comment|}}
+  <div class="well">
+    <h3>{{comment.author}}</h3>
+    <h5>Rating: {{comment.rating}}</h5>
+    <p>
+      {{comment.body}}
+    </p>
+  </div>
+{{/each}}

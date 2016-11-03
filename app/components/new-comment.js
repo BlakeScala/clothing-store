@@ -16,7 +16,7 @@ export default Ember.Component.extend({
       var params = {
         author: this.get('author'),
         body: this.get('body'),
-        rating: this.get('rating'),
+        rating: parseInt(this.get('rating')),
         product: this.get('product')
       };
       console.log(params);
