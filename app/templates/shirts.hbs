@@ -1,0 +1,8 @@
+<h2>Shirts</h2>
+
+{{#each model as |product|}}
+  {{log product.category}}
+  {{#if 'product.category === "T-Shirts"'}}
+    {{product-tile product=product}}
+  {{/if}}
+{{/each}}
