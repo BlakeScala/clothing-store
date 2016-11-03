@@ -1,0 +1,21 @@
+{{#if addNewComment}}
+  <form class="well">
+    <h1>Add Your Review</h1>
+    <div class="form-group">
+      <label for="author">Your Name</label>
+      {{input value=author id="author" class="form-control"}}
+    </div>
+    <div class="form-group">
+      <label for="body">Comments</label>
+      {{input value=body id="body" class="form-control"}}
+    </div>
+    <div class="form-group">
+      <label for="rating">Rating</label>
+      {{input value=rating id="rating" class="form-control"}}
+    </div>
+    <button class="btn btn-default" {{action 'addReview'}}>Add Review</button>
+    <button class="btn btn-default" {{action 'cancel'}}>Cancel</button>
+  </form>
+{{else}}
+  <button class="btn btn-default" {{action 'showCommentForm'}}>Add Your Review</button>
+{{/if}}

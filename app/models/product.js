@@ -7,4 +7,5 @@ export default DS.Model.extend({
   category: DS.attr(),
   sales: DS.attr(),
   clearance: DS.attr(),
+  comments: DS.hasMany('comment', { async: true })
 });

@@ -20,7 +20,6 @@
 }
 
 #productWell {
-  height: 450px;
   padding: 10px;
   text-align: center;
   img {
@@ -71,4 +70,10 @@ nav {
 
 .container-fluid {
   padding: 0px;
+}
+
+#addToCart {
+  font-size: 24px;
+  display: block;
+  margin: auto;
 }

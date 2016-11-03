@@ -1,1 +1,14 @@
-{{product-main product=model}}
+{{product-main product=model.product}}
+
+<div class="well" id="comments">
+  <h1>Reviews</h1>
+  {{new-comment addReview="addReview" product=model.product}}
+  {{#each model.product.comments as |comment|}}
+    <div class="well">
+      <h3>{{comment.author}}</h3>
+      <p>
+        {{comment.body}}
+      </p>
+    </div>
+  {{/each}}
+</div>
