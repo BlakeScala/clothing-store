@@ -20,16 +20,19 @@
 }
 
 #productWell {
-  height: 500px;
+  height: 450px;
   padding: 10px;
+  text-align: center;
   img {
     height: auto;
-    width: 40%;
+    width: 80%;
+    display: block;
+    margin: auto;
   }
 }
 
 nav {
-  width: 70%;
+  width: 80%;
   margin: 0 auto;
 }
 .navbar-nav {

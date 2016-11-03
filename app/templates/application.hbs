@@ -1,16 +1,17 @@
 <div class="container">
   <div class="jumbotron">
-    <h1>Clothes 'n Shit</h1>
-    <a href="/admin"><img src="images/admin.png" alt="" /></a>
+    <h1>Clothes 'n Stuff</h1>
+    {{#link-to 'admin'}}<img src="images/admin.png" alt="" />{{/link-to}}
   </div>
   <nav class="navbar navbar-default">
     <div class="container-fluid">
       <ul class="nav navbar-nav">
-        <li><a href="/"><img src="images/home.png" alt="" /></a></li>
-        <li><a href="/"><img src="images/shirt.png" alt="" /></a></li>
-        <li><a href="/"><img src="images/hoodie.jpg" alt="" /></a></li>
-        <li><a href="/"><img src="images/hat.png" alt="" /></a></li>
-        <li><a href="/"><img src="images/price.png" alt="" /></a></li>
+        <li>{{#link-to 'index'}}<img src="images/home.png" alt="" />{{/link-to}}</li>
+        <li>{{#link-to 'index'}}<img src="images/shirt.png" alt="" />{{/link-to}}</li>
+        <li>{{#link-to 'index'}}<img src="images/hoodie.jpg" alt="" />{{/link-to}}</li>
+        <li>{{#link-to 'index'}}<img src="images/hat.png" alt="" />{{/link-to}}</li>
+        <li>{{#link-to 'index'}}<img src="images/price.png" alt="" />{{/link-to}}</li>
+        <li>{{#link-to 'cart'}}<img src="images/cart.png" alt="" />{{/link-to}}</li>
       </ul>
     </div>
   </nav>

@@ -15,7 +15,7 @@ export default Ember.Component.extend({
         image: this.get('image'),
         category: this.get('category'),
         clearance: this.get('clearance')
-      }
+      };
       this.set('editProduct', false);
       this.sendAction('updateProduct', product, params);
       this.set('name', null);
